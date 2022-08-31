@@ -32,8 +32,29 @@
 	border: 3px dotted black;
 	display: flex;
 	margin: 5px;
+	align-items: center;
+	justify-content: center;
 }
 
 .beige-rectangle {
 	background-color: beige;
+	height: 75%;
+	width: 90%;
+	box-shadow: 5px 5px 3px;
+}
+
+.hello-container {
+	display: flex;
+	justify-content: center;
+}
+
+.hello-rectangle {
+	background-color: white;
+	height: 400px;
+	width: 600px;
+	border: 2px solid lightblue;
+	box-shadow: 3px 3px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
